@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple white heart with a pulse line, used as the app icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,78 L33,57 C27,51 27,41 33,36 C39,31 47,32 54,40 C61,32 69,31 75,36 C81,41 81,51 75,57 Z" />
+    <path
+        android:strokeColor="#00897B"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M34,52 L44,52 L48,44 L54,60 L58,50 L74,50" />
+</vector>
