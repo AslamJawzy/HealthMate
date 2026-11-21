@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon foreground: white "HM" letters, inside the adaptive icon safe zone -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48.63 43.82V64.18H43.67V55.8H35.96V64.18H31V43.82H35.96V51.8H43.67V43.82Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M77 43.82V64.18H72.04V51.97L67.49 64.18H63.48L58.9 51.94V64.18H53.94V43.82H59.8L65.51 57.92L71.17 43.82Z" />
+</vector>

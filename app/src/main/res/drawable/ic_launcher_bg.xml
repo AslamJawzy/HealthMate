@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon background: teal gradient with two lighter curved layers -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- darker base -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="18" android:startY="18"
+                android:endX="90" android:endY="90"
+                android:startColor="#FF2FA09C"
+                android:endColor="#FF1DA9BA" />
+        </aapt:attr>
+    </path>
+    <!-- middle layer -->
+    <path android:pathData="M18,-2 C17,40 26,58 40,66 C55,74 75,79 110,79.5 L110,-2 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="30" android:startY="20"
+                android:endX="90" android:endY="80"
+                android:startColor="#FF3CBEB3"
+                android:endColor="#FF27C2CD" />
+        </aapt:attr>
+    </path>
+    <!-- light layer, top right -->
+    <path android:pathData="M46,-2 C52,30 70,58 110,80 L110,-2 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="50" android:startY="18"
+                android:endX="95" android:endY="65"
+                android:startColor="#FF5DD6C8"
+                android:endColor="#FF44DBD8" />
+        </aapt:attr>
+    </path>
+</vector>
